@@ -1,60 +1,71 @@
-# C# — Programowanie Obiektowe
+# C# — Object-Oriented Programming
 
-Projekty z zajęć akademickich z Programowania Obiektowego w C#.
+Academic projects from Object-Oriented Programming classes in C#.
 
-> ⚠️ Projekty uczelniane — kod pisany w celach edukacyjnych.
+> ⚠️ University projects — code written for educational purposes.
 
 ---
 
-## 📁 Zajęcia
+## 📁 Projects
 
-| Plik | Temat |
+| File | Topic |
 |---|---|
-| `zajecia2.cs` | Algorytmy, operacje bitowe, enum |
-| `zajecia3.cs` | Kalkulator — klasy, menu, obsługa błędów |
-| `zajecia4.cs` | Całkowanie funkcji — całkowanie oznaczone i nieoznaczone |
-| `zajecia5.cs` | Macierze — przeciążanie operatorów, transpozycja |
+| `zajecia2.cs` | Algorithms, bitwise operations, enum |
+| `zajecia3.cs` | Calculator — classes, menu, error handling |
+| `zajecia4.cs` | Function integration — definite and indefinite |
+| `zajecia5.cs` | Matrices — operator overloading, transposition |
+| `zajecia6.cs` | Employee database — inheritance, polymorphism, OOP |
 
 ---
 
-## 📝 Zajęcia 2
-### Zadania
-1. Przybliżenie liczby PI
-2. Konwersja dziesiętna → binarna
-3. Przesunięcie bitowe
-4. Obrót bitowy
-5. Enum — numery kierunkowe krajów
+## 📝 Classes 2
+### Tasks
+1. PI number approximation
+2. Decimal to binary conversion
+3. Bitwise shift
+4. Bitwise rotation
+5. Enum — country dialing codes
 
 ---
 
-## 📝 Zajęcia 3 — Kalkulator
-### Zadania
-1. Operacje matematyczne jako osobne klasy (dodawanie, odejmowanie, mnożenie, dzielenie, potęgowanie, pierwiastkowanie, wartość bezwzględna)
-2. Menu z wyborem operacji i powrotem
-3. Obsługa błędów (dzielenie przez 0 i inne)
-4. Obliczanie całych równań (np. `3 + (3/5)*4`)
-5. Rozwiązywanie funkcji kwadratowej
+## 📝 Classes 3 — Calculator
+### Tasks
+1. Mathematical operations as separate classes (addition, subtraction, multiplication, division, exponentiation, square root, absolute value)
+2. Menu with operation selection and return option
+3. Error handling (division by zero and others)
+4. Full equation evaluation (e.g. `3 + (3/5)*4`)
+5. Quadratic function solver
 
 ---
 
-## 📝 Zajęcia 4 — Całkowanie
-### Zadania
-1. Wprowadzanie funkcji złożonej z potęg zmiennej `x`
-2. Menu wyboru typu całkowania
-3. Całkowanie oznaczone
-4. Całkowanie nieoznaczone
+## 📝 Classes 4 — Integration
+### Tasks
+1. Input function composed of powers of variable `x`
+2. Integration type selection menu
+3. Definite integration
+4. Indefinite integration
 
 ---
 
-## 📝 Zajęcia 5 — Macierze
-### Zadania
-1. Menu — wprowadzanie macierzy i wybór operacji
-2. Przeciążenie operatora `+`
-3. Przeciążenie operatora `*`
-4. Transpozycja macierzy
+## 📝 Classes 5 — Matrices
+### Tasks
+1. Menu — matrix input and operation selection
+2. Operator `+` overloading
+3. Operator `*` overloading
+4. Matrix transposition
 
 ---
 
-## Technologie
+## 📝 Classes 6 — Inheritance
+### Tasks
+1. Employee database with three job positions (director, accountant, technician)
+2. Base class `Pracownik` with at least two virtual methods
+3. Inheritance — `Dyrektor`, `Ksiegowy`, `Technik` extend `Pracownik`
+4. `get` / `set` properties for employee data (e.g. salary)
+5. Salary validation and employee management menu
+
+---
+
+## Technologies
 ![CSharp](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![dotNET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
